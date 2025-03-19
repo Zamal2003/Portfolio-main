@@ -8,6 +8,7 @@ const Skills = () => {
     { name: 'React', bgColor: 'bg-blue-600' },
     { name: 'Node.js', bgColor: 'bg-green-500' },
     { name: 'MongoDB', bgColor: 'bg-green-700' },
+    { name: 'Express.js', bgColor: 'bg-yellow-700' },
     { name: 'Postman', bgColor: 'bg-orange-500' },
     { name: 'Git', bgColor: 'bg-orange-500' },
     { name: 'Github', bgColor: 'bg-gray-800' }
