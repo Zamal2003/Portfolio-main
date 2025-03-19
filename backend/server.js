@@ -13,7 +13,8 @@ app.use(
   cors({
     origin: "https://portfolio-main-eight-delta.vercel.app", // Replace with your frontend URL
     methods: ["POST"], // Allow only POST requests
-    credentials:true
+    credentials:true,
+    allowedHeaders: ["Content-Type"],
   })
 );
 
