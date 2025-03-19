@@ -50,6 +50,9 @@ app.post("/api/contact", (req, res) => {
   });
 });
 
+app.use('/', (req,res)=>{
+  res.json({message:'server is working properly'})
+})
 // Start the Server
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
