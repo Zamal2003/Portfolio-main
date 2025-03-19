@@ -9,7 +9,13 @@ const PORT = 5000;
 
 // Middleware
 app.use(bodyParser.json());
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://portfolio-main-eight-delta.vercel.app", // Replace with your frontend URL
+    methods: ["POST"], // Allow only POST requests
+    credentials:true
+  })
+);
 
 // Email Configuration
 const transporter = nodemailer.createTransport({
@@ -52,3 +58,4 @@ app.listen(PORT, () => {
 
 
 // fmfq cnzz gyum ahpo
+//  // https://portfolio-main-eight-delta.vercel.app/
