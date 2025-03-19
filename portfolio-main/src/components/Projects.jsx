@@ -1,29 +1,33 @@
 import React from 'react';
+import gallery from '../assets/gallery.png';
+import todoimage from '../assets/todoimage.png';
+import hospital from '../assets/hospital.png';
+import amazon from '../assets/amazon.png';
 
 function Projects() {
   const projectList = [
     {
       title: 'Todo-App',
-      image: '/src/assets/todoimage.png',  // Ensure this image is in public/assets/
+      image: todoimage,  // Ensure this image is in public/assets/
       description: 'A full-stack task management application built with the MERN stack. This app allows users to efficiently organize their tasks with an intuitive and user-friendly interface. personal portfolio showcasing my skills, projects, and contact information.',
       link: 'https://todo-app-my-app.vercel.app/',
     },
     {
       title: 'Hospital Management',
-      image: '/src/assets/hospital.png',
+      image: hospital,
       description: 'A hospital management system built with the MERN stack uses MongoDB ,Express.js,Node.js React.js  .',
       link: 'https://hospital-management-client-sr2w.vercel.app/#/login',
     },
     {
       title: 'Simple Gallery',
-      image: '/src/assets/gallery.png',  // Add actual image paths
+      image: gallery,  // Add actual image paths
       description: 'An online store with features like product search, cart management, and payment gateway integration.',
       link: 'https://simplegallery01.netlify.app/',
     },
    
     {
       title: 'Amazon clone',
-      image: 'src/assets/amazon.png',
+      image: amazon,
       description: 'A full-stack application for creating, reading, updating, and deleting blog posts.',
       link: 'https://amazon2-o-jk.vercel.app/',
     },
