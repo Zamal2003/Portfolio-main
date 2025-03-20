@@ -22,43 +22,51 @@ function Home() {
   }, []);
 
   return (
-    <section className="flex items-center justify-center min-h-screen bg-gray-50 dark:bg-gray-900 text-white">
-      <div className="flex flex-col md:flex-row items-center justify-between max-w-4xl mx-auto px-6">
-        {/* Left Content */}
-        <div className="md:w-1/2 mb-8 md:mb-0 text-center md:text-left">
-          <h1 className="text-4xl font-bold mb-4" style={{ color }}>
-            Hi, I'm Md Jamaluddin
-          </h1>
-          <p className="italic mb-4">
-          A passionate Full Stack Developer who thrives on building modern, scalable websites and applications. I specialize in React, Node.js, Express, and MongoDB, blending creativity and code to turn ideas into impactful solutions. Ready to create something amazing together?"          </p>
-          <p className="italic mb-6">I thrive on turning ideas into real-world solutions.</p>
-          <div className="flex justify-center md:justify-start gap-4">
-            <a
-              href="./resume.pdf"
-              className="bg-yellow-400 text-black py-2 px-4 rounded hover:bg-yellow-300 transition"
-              download
-            >
-              Download Resume
-            </a>
-            <a
-              href="#projects"
-              className="bg-green-500 text-white py-2 px-4 rounded hover:bg-green-400 transition"
-            >
-              View Projects
-            </a>
-          </div>
-        </div>
-
-        {/* Right Content (Profile Photo) */}
-        <div className="md:w-1/2 flex justify-center">
-          <img
-            src={ProfilePhoto}
-            alt="Profile"
-            className="w-48 h-48 rounded-full shadow-lg object-cover md:w-64 md:h-64"
-          />
-        </div>
+    <section className="flex items-center justify-center min-h-[65vh] bg-gray-900 text-white px-6">
+    <div className="flex flex-row-reverse items-center justify-between max-w-2xl mx-auto py-10 gap-6">
+      
+      {/* Profile Image */}
+      <div className="w-1/3 flex justify-center">
+        <img
+          src={ProfilePhoto}
+          alt="Profile"
+          className="w-40 h-40 sm:w-56 sm:h-56 rounded-full shadow-lg object-cover"
+        />
       </div>
-    </section>
+  
+      {/* Content */}
+      <div className="w-2/3 text-center sm:text-left">
+        <h1 className="text-3xl sm:text-4xl font-bold text-purple-400 mb-4"
+       style={{color}} >
+          Hi, I'm Md Jamaluddin
+        </h1>
+        <p className="italic mb-4">
+          A passionate Full Stack Developer who thrives on building modern, scalable websites and applications...
+        </p>
+        <div className="flex gap-4 w-fit">
+  <a
+    href="./resume.pdf"
+    className="bg-yellow-400 text-black py-2 px-4 rounded hover:bg-yellow-300 transition text-center ml-12"
+    download
+  >
+    Download Resume
+  </a>
+  <a
+    href="#projects"
+    className="bg-green-500 text-white py-2 px-4 rounded hover:bg-green-400 transition text-center"
+  >
+    View Projects
+  </a>
+</div>
+
+
+      </div>
+      
+    </div>
+  </section>
+  
+  
+  
   );
 }
 

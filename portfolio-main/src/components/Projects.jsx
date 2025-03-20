@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import gallery from '../assets/gallery.png';
 import todoimage from '../assets/todoimage.png';
 import hospital from '../assets/hospital.png';
@@ -8,23 +9,22 @@ function Projects() {
   const projectList = [
     {
       title: 'Todo-App',
-      image: todoimage,  // Ensure this image is in public/assets/
-      description: 'A full-stack task management application built with the MERN stack. This app allows users to efficiently organize their tasks with an intuitive and user-friendly interface. personal portfolio showcasing my skills, projects, and contact information.',
+      image: todoimage,
+      description: 'A full-stack task management application built with the MERN stack.',
       link: 'https://todo-app-my-app.vercel.app/',
     },
     {
       title: 'Hospital Management',
       image: hospital,
-      description: 'A hospital management system built with the MERN stack uses MongoDB ,Express.js,Node.js React.js  .',
+      description: 'A hospital management system built with the MERN stack.',
       link: 'https://hospital-management-client-sr2w.vercel.app/#/login',
     },
     {
       title: 'Simple Gallery',
-      image: gallery,  // Add actual image paths
+      image: gallery,
       description: 'An online store with features like product search, cart management, and payment gateway integration.',
       link: 'https://simplegallery01.netlify.app/',
     },
-   
     {
       title: 'Amazon clone',
       image: amazon,
@@ -34,23 +34,27 @@ function Projects() {
   ];
 
   return (
-    <section id="projects" className="bg-gradient-to-r to-purple-500 py-20">
+    <section id="projects" className="bg-gradient-to-r from-blue-500 to-purple-500 py-20">
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-4xl font-bold text-white text-center mb-12">My Projects</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-11">
           {projectList.map((project, index) => (
-            <div
+            <motion.div
               key={index}
-              className="bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition-transform duration-300"
+              className="bg-white shadow-lg rounded-xl overflow-hidden transform p-5"
+              initial={{ opacity: 0, y: 50 }} // Animation starts from below
+              whileInView={{ opacity: 1, y: 0 }} // Animation appears on scroll
+              transition={{ duration: 0.5, delay: index * 0.2 }} // Delay for stagger effect
+              viewport={{ once: true }} // Animation runs only once
             >
-              <div className="p-7">
+              <img
+                src={project.image}
+                alt={project.title}
+                className="w-full h-48 object-cover rounded-t-lg"
+              />
+              <div className="p-5">
                 <h3 className="text-2xl font-semibold text-gray-800 mb-4">{project.title}</h3>
                 <p className="text-gray-600 mb-6">{project.description}</p>
-                <img
-                  src={project.image || '/assets/default.png'}  // Fallback for missing images
-                  alt={project.title}
-                  style={{ width: "300px", height: "auto" }}
-                />
                 <a
                   href={project.link}
                   target="_blank"
@@ -60,7 +64,7 @@ function Projects() {
                   View Project
                 </a>
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>
