@@ -81,7 +81,7 @@ function Navbar() {
               Skills
             </a>
             <a href="#services" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">
-             services
+             Services
             </a>
             <a href="#contact" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">
               Contact

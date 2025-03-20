@@ -30,7 +30,7 @@ const services = [
 
 const Services = () => {
   return (
-    <section style={styles.container}>
+    <section id="services" style={styles.container}>
       <h2 style={styles.heading}>My Services</h2>
       <div style={styles.grid}>
         {services.map((service) => (
