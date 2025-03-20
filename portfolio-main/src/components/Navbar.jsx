@@ -53,6 +53,9 @@ function Navbar() {
               <a href="#skills" className="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">
                 Skills
               </a>
+              <a href="#services" className="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">
+                services
+              </a>
               <a href="#contact" className="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">
                 Contact
               </a>

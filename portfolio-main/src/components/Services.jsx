@@ -49,7 +49,7 @@ const styles = {
   container: {
     padding: "50px 20px",
     textAlign: "center",
-    backgroundColor: "#f9f9f9",
+    backgroundColor: "#76a3b0",
   },
   heading: {
     fontSize: "2rem",
