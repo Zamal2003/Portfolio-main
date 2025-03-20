@@ -32,7 +32,7 @@ const Contact = () => {
     // Handle form submission (e.g., send data to server)
     try {
       // You can replace this with your actual API endpoint
-      const response = await fetch('https://portfolio-main-server.vercel.app', {
+      const response = await fetch('https://portfolio-main-server.vercel.app/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
