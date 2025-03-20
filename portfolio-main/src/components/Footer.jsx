@@ -31,9 +31,10 @@ const Footer = () => {
         <a href="https://www.linkedin.com/in/md-jamaluddin-52175a250/" target="_blank" rel="noopener noreferrer" style={linkStyle}>
           LinkedIn
         </a>
-        <a href="mdjamaluddina008@gmail.com" style={linkStyle}>
-          Email
-        </a>
+        <a href="mailto:mdjamaluddina008@gmail.com" style={linkStyle}>
+  Email
+</a>
+
       </div>
     </footer>
   );

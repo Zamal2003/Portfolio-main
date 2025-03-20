@@ -51,7 +51,7 @@ app.post("/api/contact", (req, res) => {
   });
 });
 
-app.use('/', (req,res)=>{
+app.use('*', (req,res)=>{
   res.json({message:'server is working properly'})
 })
 // Start the Server
