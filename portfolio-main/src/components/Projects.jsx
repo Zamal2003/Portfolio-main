@@ -17,9 +17,8 @@ function Projects() {
       title: 'FormFlow',
       image: Formflow,
       description: 'FormFlow is a seamless form submission and management system. Users can effortlessly fill out and submit forms, while administrators can track, review, and manage submissions through an intuitive dashboard. Whether for surveys, feedback collection, or data entry, FormFlow simplifies the process with a user-friendly interface and efficient data management.',
-      link: '<a href="https://admin-form-beige.vercel.app" target="_blank">Admin Panel</a> | <a href="https://observation-form.vercel.app" target="_blank">User Panel</a>'
-
-    },
+      link: "https://admin-form-beige.vercel.app/",
+    }, 
     
     {
       title: 'Hospital Management',
