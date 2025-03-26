@@ -41,7 +41,7 @@ function Home() {
           Hi, I'm Md Jamaluddin
         </h1>
         <p className="italic mb-4">
-         A Full Stack Developer with a passion for crafting dynamic and scalable web applications. I love solving complex problems, optimizing performance, and bringing ideas to life through clean, efficient code. Whether it’s front-end interactivity or back-end architecture, I ensure every project is built for excellence.”        </p>
+         A Full Stack Developer with a passion for crafting dynamic and scalable web applications. I love solving complex problems, optimizing performance, efficient code. Whether it’s front-end interactivity or back-end architecture, I ensure every project is built for excellence.”</p>
         <div className="flex gap-4 w-fit">
   <a
     href="./resume.pdf"
