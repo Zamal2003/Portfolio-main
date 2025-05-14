@@ -10,22 +10,22 @@ function Projects() {
     {
       title: 'DATA COLLECTOR FOR SAFETY ENGINEER',
       image: Formflow,
-      description: 'The Data Collector for Safety Engineer is a digital solution designed to streamline and enhance the process of collecting, managing, and analyzing safety-related data on construction or industrial sites. The system allows safety engineers to efficiently record observations, incidents, inspections, and compliance checks through a user-friendly interface, using either a mobile or desktop platform. is a seamless form submission and management system. Users can effortlessly fill out and submit forms, while administrators can track, review, and manage submissions through an intuitive dashboard. Whether for surveys, feedback collection, or data entry, FormFlow simplifies the process with a user-friendly interface and efficient data management.The main objective of this tool is to replace manual paperwork with a structured digital workflow, enabling real-time data capture, faster reporting, and improved decision-making.',
+      description: 'The Data Collector for Safety Engineer is a digital solution designed to streamline and enhance the process of collecting, managing, and analyzing safety-related data on construction or industrial sites. The system allows safety engineers to efficiently record observations, incidents, inspections, and compliance checks through a user-friendly interface, using either a mobile or desktop platform. is a seamless form submission and management system. Users can effortlessly fill out and submit forms, while administrators can track, review.',
       link: "https://admin-form-beige.vercel.app/",
     }, 
     {
+      title: 'Hospital Management',
+      image: hospital,
+      description: 'A hospital management system built with the MERN stack.The project at https://hospital-management-client-sr2w.vercel.app/#/login appears to be a Hospital Management System (HMS) web application, likely built with a modern JavaScript framework such as React or Angular, hosted on Vercel. Based on the URL and similar HMS projects, it seems to be a client-side application focused on managing hospital operations, with the login page suggesting role-based access for users like patients, doctors, or admins.Features-User Authentication,Patient Management,Doctor Dashboard,Admin Panel,Responsive Design',
+      link: 'https://hospital-management-client-sr2w.vercel.app/#/login',
+    },
+    {
       title: 'Todo-App',
       image: todoimage,
-      description: 'A full-stack task management application built with the MERN stack.',
+      description: 'A full-stack task management application built with the MERN stack.The project at /todo-app-steel-three.vercel.app/)Since the specific details of this project (e.g., exact tech stack or unique features) are not available in the provided context, it likely follows the pattern of other minimal Todo apps on Vercel, focusing on simplicity and functionality. For more precise information, visiting the URL or checking its associated GitHub repository (if public) would provide further insights.[](https://next-todo-eight-taupe.vercel.app/)',
       link: 'https://todo-app-my-app.vercel.app/',
     },
     
-    {
-      title: 'Hospital Management',
-      image: hospital,
-      description: 'A hospital management system built with the MERN stack.',
-      link: 'https://hospital-management-client-sr2w.vercel.app/#/login',
-    },
     {
       title: 'Simple Gallery',
       image: gallery,
